@@ -45,11 +45,7 @@ function initMap() {
                     $(".LTsSet:last .liName").text(aName);
                     $(".LTsSet:last .liImg").attr("src", avatarImg);
                     $(".LTsSet:last .tagSet").html(aWhen + "  " + aWhere + "<br/>");
-                    if (aLTtype == 1) $(".LTsSet:last .tagSet").append("<img src='./img/mark_1.png'/>清代時期");
-                    if (aLTtype == 2) $(".LTsSet:last .tagSet").append("<img src='./img/mark_2.png'/>日治時期");
-                    if (aLTtype == 3) $(".LTsSet:last .tagSet").append("<img src='./img/mark_3.png'/>國民政府來台");
-                    if (aLTtype == 4) $(".LTsSet:last .tagSet").append("<img src='./img/mark_4.png'/>城市蓬勃發展");
-                    if (aLTtype == 5) $(".LTsSet:last .tagSet").append("<img src='./img/mark_5.png'/>城市多元蛻變");
+                    if (aLTtype == 1) $(".LTsSet:last .tagSet").append("<img src='./img/mark_1.png'/>");
                 }
 
                 var marker = new google.maps.Marker({
