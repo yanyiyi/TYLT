@@ -472,6 +472,30 @@ a.LTsSet {
     animation: backgroundFadeOutlistBox 1s forwards;
 }
 
+
+.shadow {
+
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -moz-box-shadow: #f7f7f4 0px 0px 15px 15px inset;
+    -webkit-box-shadow: #f7f7f4 0px 0px 15px 15px inset;
+    box-shadow: #f7f7f4 0px 0px 15px 15px inset;
+}
+
+
+.shadow .liImg {
+    height: 99%;
+    max-width: 100%;
+    position: relative;
+    z-index: -1;
+    border: #f7f7f4 1px solid;
+}
+
+
 @keyframes backgroundFadeInlistBox {
     from {
         top: -500%;
