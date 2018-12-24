@@ -19,7 +19,7 @@ var filterSwitch = [1, 1, 1, 1, 1, 1];
 function initMap() {
     var LTs = [];
     var imgLTtype = ['', './img/icon_blue.png', './img/icon_lightblue.png', './img/icon_yellow.png', './img/icon_red.png', './img/icon_lime.png'];
-    $.getJSON('https://spreadsheets.google.com/feeds/list/1eUgqe2z8gL1d9GrY2LwpAAxW9Wh2xOKOopqDNcISdpE/1/public/values?alt=json', function (dataLog) {
+    $.getJSON('https://spreadsheets.google.com/feeds/list/1RMtRyWF_2L6pRJNztr7TIgNMikpJtV13dPCtLWdu38g/1/public/values?alt=json', function (dataLog) {
             var ltype = GetURLParameter("LTType");
 
             //            console.log("gJson");

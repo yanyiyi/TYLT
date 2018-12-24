@@ -4,7 +4,7 @@
          var aLongtitude = [];
          var dataAmount = 0;
          console.log("w");
-         $.getJSON('https://spreadsheets.google.com/feeds/list/1eUgqe2z8gL1d9GrY2LwpAAxW9Wh2xOKOopqDNcISdpE/1/public/values?alt=json', function (dataLog) {
+         $.getJSON('https://spreadsheets.google.com/feeds/list/1RMtRyWF_2L6pRJNztr7TIgNMikpJtV13dPCtLWdu38g/1/public/values?alt=json', function (dataLog) {
                  console.log("gJson");
                  dataAmount = dataLog.feed.entry.length;
                  console.log(dataAmount);
