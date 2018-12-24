@@ -1,0 +1,81 @@
+@media (max-width: 480px) {
+    .navWarp,
+    .mainMap {
+        width: 98%;
+    }
+}
+
+@media (max-width: 767px) {
+    .navWarp,
+    .mainMap {
+        width: 95%;
+    }
+    #navBar,
+    .decWords {
+        display: none;
+    }
+    #liliMain {
+        width: 100%;
+    }
+    .oPhotos {
+        width: 97%;
+        height: 250px;
+    }
+    .modeWeb {
+        display: none;
+    }
+    .navSet {
+        height: 90px;
+    }
+    .navWarp {
+        height: 45px;
+        margin: 5px auto 5px auto;
+    }
+    .rulerDec {
+        height: 20px;
+    }
+    #mainLogo {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+        background-position: center
+    }
+    #map {
+        width: 100%;
+        height: 25%;
+    }
+    .fb-like {
+        width: 96%;
+        margin: 0 2% 0 2%;
+    }
+}
+
+@media (min-width: 768px) {
+    .navWarp,
+    .mainMap {
+        width: 90%;
+    }
+    .modeMobile {
+        display: none;
+    }
+    #liliList {
+        display: none;
+    }
+    .navCenter {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .navWarp,
+    .mainMap {
+        width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navWarp,
+    .mainMap {
+        width: 60%;
+    }
+}

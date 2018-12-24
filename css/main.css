@@ -1,0 +1,495 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+* {
+    font-family: 'Noto Sans TC';
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans TC';
+    font-size: 16px;
+}
+
+p {
+    font-weight: 100;
+    font-size: 0.8em;
+}
+
+.navSet {
+    height: 200px;
+    width: 100%;
+    display: block;
+    background: url("../img/Lili_bk.png") bottom center no-repeat;
+    background-size: cover;
+    clear: both;
+    position: relative;
+}
+
+.rulerDec {
+    width: 100%;
+    height: 30px;
+    background: url("../img/Lili_ruler.png") bottom repeat-x;
+    background-size: contain;
+}
+
+.navWarp {
+    width: 66.7%;
+    height: 110px;
+    margin: 30px auto 40px auto;
+    position: relative;
+}
+
+#mainLogo {
+    width: 30%;
+    background: url(../img/Lili_logo.png) no-repeat bottom left;
+    height: 80%;
+    background-size: contain;
+    float: left;
+    position: absolute;
+    top: 0%;
+}
+
+#navBar {
+    width: 30%;
+    float: left;
+    font-size: 1em;
+}
+
+#navBar a:nth-child(1),
+.navBar a:nth-child(1) {
+    background: url(../img/mark_1.png) left no-repeat;
+    background-size: contain;
+}
+
+#navBar a:nth-child(2),
+.navBar a:nth-child(2) {
+    background: url(../img/mark_2.png) left no-repeat;
+    background-size: contain;
+}
+
+#navBar a:nth-child(3),
+.navBar a:nth-child(3) {
+    background: url(../img/mark_3.png) left no-repeat;
+    background-size: contain;
+}
+
+#navBar a:nth-child(4),
+.navBar a:nth-child(4) {
+    background: url(../img/mark_4.png) left no-repeat;
+    background-size: contain;
+}
+
+#navBar a:nth-child(5),
+.navBar a:nth-child(5) {
+    background: url(../img/mark_5.png) left no-repeat;
+    background-size: contain;
+}
+
+#navBar a,
+.navBar a {
+    margin-bottom: 0.9em;
+    padding-left: 1.5em;
+    text-decoration: none;
+    color: #111;
+    font-weight: 300;
+    display: inline-block;
+    width: 100%;
+    height: 1.8em;
+    text-align: left;
+    line-height: 1.75em;
+    margin-left: 0.05em;
+    letter-spacing: 0.2em;
+}
+
+.navBar a {
+    margin-left: 0px;
+}
+
+footer {
+    padding: 2.5% 5%;
+    clear: both;
+    width: 90%;
+    font-weight: 100;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    color: #888;
+}
+
+.footerIcon {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.footerIcon:hover {
+    opacity: 1;
+}
+
+.footerIcon img {
+    width: 95%;
+    display: block;
+}
+
+#navBar a:nth-child(1):hover,
+.navBar a:nth-child(1):hover {
+    background: url(../img/mark_1hover.png) left no-repeat;
+    background-size: contain;
+}
+
+#navBar a:nth-child(2):hover,
+.navBar a:nth-child(2):hover {
+    background: url(../img/mark_2hover.png) left no-repeat;
+    background-size: contain;
+}
+
+#navBar a:nth-child(3):hover,
+.navBar a:nth-child(3):hover {
+    background: url(../img/mark_3hover.png) left no-repeat;
+    background-size: contain;
+}
+
+#navBar a:nth-child(4):hover,
+.navBar a:nth-child(4):hover {
+    background: url(../img/mark_4hover.png) left no-repeat;
+    background-size: contain;
+}
+
+#navBar a:nth-child(5):hover,
+.navBar a:nth-child(5):hover {
+    background: url(../img/mark_5hover.png) left no-repeat;
+    background-size: contain;
+}
+
+#navBar a:hover,
+.navBar a:hover {
+    text-decoration: underline;
+    background-size: contain;
+}
+
+#navBar .switchOff {
+    opacity: 0.3;
+}
+
+.mainMap {
+    padding: 2.5% 0%;
+    display: block;
+    height: 95%;
+    width: 66.7%;
+    margin: 0 auto;
+    clear: both;
+}
+
+.decWords {
+    display: block;
+    width: 65%;
+    float: left;
+    position: absolute;
+    bottom: 2em;
+    right: 0px;
+    padding: 0 2.5%;
+}
+
+.decWords p {
+    font-size: 0.8em;
+    line-height: 150%;
+    letter-spacing: 0.2em;
+    text-align: justify;
+    color: #666;
+}
+
+#map {
+    height: 70%;
+    width: 70%;
+    float: left;
+    display: block;
+    -webkit-box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.15);
+}
+
+#liliMain {
+    width: 70%;
+    float: left;
+    display: block;
+    -webkit-box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.15);
+}
+
+#liTitleSet,
+.liTitleSet {
+    width: 100%;
+    position: relative;
+}
+
+#liliList .liTitleSet {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+
+#liTitleSet h1,
+.liTitleSet h1 {
+    font-size: 1.8em;
+    padding: 2%;
+    width: 96%;
+    position: relative;
+    letter-spacing: 0.025em;
+}
+
+h2 {
+    font-size: 0.9em;
+    line-height: 1.2em;
+    letter-spacing: 0.15em;
+    padding: 2% 0;
+}
+
+#liTitleSet .tagSet,
+.liTitleSet .tagSet {
+    width: 96%;
+    padding: 2%;
+    position: absolute;
+    right: 0px;
+    text-align: right;
+    font-size: 0.9em;
+    line-height: 1.2em;
+    letter-spacing: 0.15em;
+    top: 0px;
+}
+
+.tagSet img,
+.warpRatio .tagSet img {
+    height: 1.2em;
+    padding-right: 0.25em;
+    vertical-align: sub;
+}
+
+.tagSet a {
+    text-decoration: none;
+    color: #111;
+}
+
+.tagSet a:hover {
+    text-decoration: underline;
+}
+
+
+.warpRatio {
+    position: relative;
+    padding-bottom: 56.26%;
+    overflow: hidden;
+    margin: 2%;
+    display: block;
+}
+
+a.lilisSet {
+    color: #333;
+}
+
+#liliList .warpRatio {
+    padding-bottom: 42.26%;
+}
+
+.warpRatio iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.warpCenter {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.warpRatio img {
+    height: 95%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.warpImg {
+    background-color: #f7f7f4;
+}
+
+.aContext {
+    padding: 2%;
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.aContext p {
+    text-indent: 1.8em;
+    margin: 2%;
+}
+
+.oImg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #444;
+    text-align: center;
+    overflow: hidden;
+}
+
+.oPhotos {
+    width: 47%;
+    height: 150px;
+    margin: 1.5%;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+
+.oPhotos:nth-child(5n + 1) .oContent {
+    background-color: #6e7b8f99;
+}
+
+.oPhotos:nth-child(5n + 2) .oContent {
+    background-color: #f4c25699;
+}
+
+.oPhotos:nth-child(5n + 3) .oContent {
+    background-color: #89c9cb99;
+}
+
+.oPhotos:nth-child(5n + 4) .oContent {
+    background-color: #9ec6a599;
+}
+
+.oPhotos:nth-child(5n + 5) .oContent {
+    background-color: #ef696099;
+}
+
+
+
+.oPhotos img {
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+
+.oContent {
+    font-size: 0.9em;
+    font-weight: 200;
+    color: #FFF;
+    width: 100%;
+    min-height: 15%;
+    padding: 2% 2.5%;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    position: absolute;
+    bottom: 0px;
+    z-index: 75;
+}
+
+.pWid {
+    font-size: 0.6em;
+    padding-top: 0.5em;
+    font-weight: 400;
+}
+
+.fb-like {
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+
+/*nav
+*/
+
+.navCenter {
+    width: 10%;
+    height: 100%;
+    display: block;
+    margin: 0px;
+    text-align: center;
+    background-image: url(../img/toggle_2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 50;
+    right: 0;
+}
+
+.navCenter:hover {
+    background-position: 50% 55%;
+    opacity: 1;
+}
+
+.listBox {
+    background-color: rgba(250, 250, 250, 0.9);
+    position: absolute;
+    display: block;
+    clear: both;
+    width: 100%;
+    opacity: 10;
+    top: -9000%;
+    z-index: 35;
+    text-align: center;
+}
+
+.listBox a {
+    text-align: center;
+    width: 50%;
+}
+
+
+.listBox a:hover {
+    text-align: center;
+}
+
+.navToogle {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    opacity: 0;
+}
+
+.navToogle:checked + .navCenter {
+    background-image: url(../img/toggle_1.svg);
+}
+
+.navToogle:checked ~ .listBox {
+    animation: backgroundFadeInlistBox 1s forwards;
+}
+
+.navToogle:unchecked ~ .listBox {
+    animation: backgroundFadeOutlistBox 1s forwards;
+}
+
+@keyframes backgroundFadeInlistBox {
+    from {
+        top: -500%;
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        top: 100%;
+    }
+}
+
+@keyframes backgroundFadeOutlistBox {
+    from {
+        opacity: 1;
+        top: 100%;
+    }
+    to {
+        opacity: 0;
+        top: -500%;
+    }
+}
