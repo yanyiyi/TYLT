@@ -35,7 +35,7 @@ function initMap() {
                 var aWhere = dataLog.feed.entry[i].gsx$wherecome.$t;
                 var aWhen = dataLog.feed.entry[i].gsx$whencome.$t;
                 var aI = i + 1;
-                var avatarImg = "./img/avatar/" + aI + ".png";
+                var avatarImg = "./img/avatar_circle/" + aI + ".png";
                 //                LTs[i] = [aName, aLatitude, aLongtitude, aLTtype, aZ];
                 //                console.log(LTs[i]);
 
