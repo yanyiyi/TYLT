@@ -35,10 +35,6 @@ $.getJSON('https://spreadsheets.google.com/feeds/list/1RMtRyWF_2L6pRJNztr7TIgNMi
         $('meta[itemprop="name"]').attr("content", "LT's 我的壢歷史－No." + j + " LT：" + aName);
         $('meta[name="twitter:title"]').attr("content", "LT's 我的壢歷史－No." + j + " LT：" + aName);
         $('meta[property="og:title"]').attr("content", "LT's 我的壢歷史－No." + j + " LT：" + aName);
-        $('meta[property="og:description"]').attr("content", aIntro);
-        $('meta[name="twitter:description"]').attr("content", aIntro);
-        $('meta[name="description"]').attr("content", aIntro);
-        $('meta[itemprop="description"]').attr("content", aIntro);
         $("#liName").text(aName);
         var avatarImg = "./img/avatar/" + j + ".png";
         var avatarImgOG = "https://LT.tyc.land/img/avatar/" + j + ".png";
