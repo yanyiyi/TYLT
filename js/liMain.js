@@ -29,7 +29,6 @@ $.getJSON('https://spreadsheets.google.com/feeds/list/1RMtRyWF_2L6pRJNztr7TIgNMi
         var aStory = dataLog.feed.entry[i].gsx$story.$t;
         var aBook = dataLog.feed.entry[i].gsx$book.$t;
         var aMore = dataLog.feed.entry[i].gsx$more.$t;
-        var aIntro = dataLog.feed.entry[i].gsx$intro.$t;
         //        alert(aName);
 
         $("title").append("－No." + j + " LT：" + aName);
