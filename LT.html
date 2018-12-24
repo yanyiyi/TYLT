@@ -54,7 +54,6 @@
         }
         gtag('js', new Date());
         gtag('config', 'UA-123979223-5');
-
     </script>
 </head>
 
@@ -79,7 +78,6 @@
             js.src = "https://connect.facebook.net/en_US/sdk.js";
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
-
     </script>
     <nav class="navSet">
 
@@ -91,17 +89,17 @@
             <input type="checkbox" id="toggle-1" class="navToogle" />
             <label for="toggle-1" class="navCenter"> </label>
             <div class="listBox navBar">
-                <a href="./index.html?LTType=1">築城記憶點</a>
-                <a href="./index.html?LTType=2">築城學校</a>
-                <a href="./index.html?LTType=3">築城藝術家</a>
+                <a href="#LThistory">景觀點歷史與介紹</a>
+                <a href="#LTbook">出處介紹</a>
+                <a href="#LTmore">選文全文</a>
             </div>
         </div>
     </nav>
     <section class="mainMap">
         <div id="navBar">
-            <a href="./index.html?LTType=1">築城記憶點</a>
-            <a href="./index.html?LTType=2">築城學校</a>
-            <a href="./index.html?LTType=3">築城藝術家</a>
+            <a href="#LThistory">景觀點歷史與介紹</a>
+            <a href="#LTbook">出處介紹</a>
+            <a href="#LTmore">選文全文</a>
         </div>
 
         <div id="LTMain">
@@ -116,8 +114,14 @@
                     </div>
                 </div>
             </div>
-            <div class="aContext">
-
+            <div class="aContext" id="LThistory">
+                <h2>景觀點歷史與介紹</h2>
+            </div>
+            <div class="aContext" id="LTbook">
+                <h2>出處介紹</h2>
+            </div>
+            <div class="aContext" id="LTmore">
+                <h2>選文全文</h2>
             </div>
             <div class="fb-like" data-share="true" data-width="300px" data-show-faces="true">
             </div>
@@ -125,9 +129,9 @@
             </div>
         </div>
         <footer>
-            <p class="modeWeb">指導單位・文化部、桃園市議會｜主辦單位・桃園市政府｜承辦單位・桃園市政府文化局<br/>協辦單位・桃園市桃園區公所｜出版單位・桃園市政府文化局<br/>策展團隊・旭日文化事業有限公司｜在地參與・博愛生活文創、桃園市桃園區南門國民小學、桃園市桃園區北門國民小學、<br/>桃園市桃園區西門國民小學、桃園市桃園區建國國民小學、桃園市立桃園國民中學、桃園市立福豐國民中學、<br/>桃園光影文化館、桃園市新住民文化會館House135、桃園旅人咖啡館、只是光影獨立咖啡廳、<br/>小鹿文具所、大爵商務飯店</p>
+            <p class="modeWeb">指導單位・客家委員會、桃園市議會｜主辦單位・桃園市政府｜承辦單位・桃園市政府客家事務局</p>
 
-            <p class="modeMobile">指導單位・文化部、桃園市議會<br/>主辦單位・桃園市政府<br/>承辦單位・桃園市政府文化局<br/>協辦單位・桃園市桃園區公所<br/>出版單位・桃園市政府文化局<br/>執行團隊・旭日文化事業有限公司<br/>在地參與・博愛生活文創、<br/>桃園市桃園區南門國民小學、<br/>桃園市桃園區北門國民小學、<br/>桃園市桃園區西門國民小學、<br/>桃園市桃園區建國國民小學、<br/>桃園市立桃園國民中學、<br/>桃園市立福豐國民中學、<br/>桃園光影文化館、<br/>桃園市新住民文化會館House135、<br/>桃園旅人咖啡館、<br/>只是光影獨立咖啡廳、<br/>小鹿文具所、大爵商務飯店</p>
+            <p class="modeMobile">指導單位・客家委員會、桃園市議會<br>主辦單位・桃園市政府<br>承辦單位・桃園市政府客家事務局</p>
 
 
         </footer>
@@ -139,7 +143,6 @@
             'albumLabel': "老照片 %1 / %2",
             'alwaysShowNavOnTouchDevices': true
         })
-
     </script>
 </body>
 
