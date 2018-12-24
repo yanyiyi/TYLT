@@ -21,7 +21,7 @@ p {
     height: 200px;
     width: 100%;
     display: block;
-    background: url("../img/Lili_bk.png") bottom center no-repeat;
+    background: url("../img/LT_bk.png") bottom center no-repeat;
     background-size: cover;
     clear: both;
     position: relative;
@@ -30,7 +30,7 @@ p {
 .rulerDec {
     width: 100%;
     height: 30px;
-    background: url("../img/Lili_ruler.png") bottom repeat-x;
+    background: url("../img/LT_ruler.png") bottom repeat-x;
     background-size: contain;
 }
 
@@ -43,7 +43,7 @@ p {
 
 #mainLogo {
     width: 30%;
-    background: url(../img/Lili_logo.png) no-repeat bottom left;
+    background: url(../img/LT_logo.png) no-repeat bottom left;
     height: 80%;
     background-size: contain;
     float: left;
@@ -212,7 +212,7 @@ footer {
     box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.15);
 }
 
-#liliMain {
+#LTMain {
     width: 70%;
     float: left;
     display: block;
@@ -227,7 +227,7 @@ footer {
     position: relative;
 }
 
-#liliList .liTitleSet {
+#LTList .liTitleSet {
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -288,11 +288,11 @@ h2 {
     display: block;
 }
 
-a.lilisSet {
+a.LTsSet {
     color: #333;
 }
 
-#liliList .warpRatio {
+#LTList .warpRatio {
     padding-bottom: 42.26%;
 }
 
