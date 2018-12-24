@@ -28,10 +28,10 @@ function initMap() {
             for (var i = 0; i < dataAmount; i++) {
                 if (i == dataAmount - 1) $(".LTsSet:first").remove();
                 var aZ = dataLog.feed.entry[i].gsx$z.$t;
-                var aName = dataLog.feed.entry[i].gsx$LTname.$t;
+                var aName = dataLog.feed.entry[i].gsx$ltname.$t;
                 var aLatitude = dataLog.feed.entry[i].gsx$lati.$t;
                 var aLongtitude = dataLog.feed.entry[i].gsx$longi.$t;
-                var aLTtype = dataLog.feed.entry[i].gsx$LTtype.$t;
+                var aLTtype = dataLog.feed.entry[i].gsx$lttype.$t;
                 var aWhere = dataLog.feed.entry[i].gsx$wherecome.$t;
                 var aWhen = dataLog.feed.entry[i].gsx$whencome.$t;
                 var aI = i + 1;
