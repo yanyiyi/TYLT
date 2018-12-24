@@ -21,12 +21,14 @@ $.getJSON('https://spreadsheets.google.com/feeds/list/1RMtRyWF_2L6pRJNztr7TIgNMi
             i = Math.floor(Math.random() * (50 - 1));
             j = i + 1;
         }
-        var aName = dataLog.feed.entry[i].gsx$LTname.$t;
+        var aName = dataLog.feed.entry[i].gsx$ltname.$t;
         var aWhere = dataLog.feed.entry[i].gsx$wherecome.$t;
         var aWhen = dataLog.feed.entry[i].gsx$whencome.$t;
         var aYTLink = dataLog.feed.entry[i].gsx$ytlink.$t;
-        var aLTtype = dataLog.feed.entry[i].gsx$LTtype.$t;
+        var aLTtype = dataLog.feed.entry[i].gsx$lttype.$t;
         var aStory = dataLog.feed.entry[i].gsx$story.$t;
+        var aBook = dataLog.feed.entry[i].gsx$book.$t;
+        var aMore = dataLog.feed.entry[i].gsx$more.$t;
         var aIntro = dataLog.feed.entry[i].gsx$intro.$t;
         //        alert(aName);
 
@@ -49,15 +51,18 @@ $.getJSON('https://spreadsheets.google.com/feeds/list/1RMtRyWF_2L6pRJNztr7TIgNMi
         $('meta[property="og:url"]').attr("content", "https://LT.tyc.land/LT.html?LTID=" + j);
 
         $(".tagSet").append(aWhen + " " + aWhere + "<br/>");
-        if (aLTtype == 1) $(".tagSet").append("<a href='./index.html?LTType=1'><img src='./img/mark_1.png'/>清代時期</a>");
-        if (aLTtype == 2) $(".tagSet").append("<a href='./index.html?LTType=2'><img src='./img/mark_2.png'/>日治時期</a>");
-        if (aLTtype == 3) $(".tagSet").append("<a href='./index.html?LTType=3'><img src='./img/mark_3.png'/>國民政府來台</a>");
-        if (aLTtype == 4) $(".tagSet").append("<a href='./index.html?LTType=4'><img src='./img/mark_4.png'/>城市蓬勃發展</a>");
-        if (aLTtype == 5) $(".tagSet").append("<a href='./index.html?LTType=5'><img src='./img/mark_5.png'/>城市多元蛻變</a>");
-        $("#LTMain iframe.youtube-player").attr("src", "https://www.youtube.com/embed/" + aYTLink);
+
         var aStorySplit = aStory.split(" ");
         for (var aSS = 0; aSS < aStorySplit.length; aSS++) {
-            $(".aContext").append("<p>" + aStorySplit[aSS] + "</p>");
+            $("#LThistory").append("<p>" + aStorySplit[aSS] + "</p>");
+        }
+        var aStorySplit = aBook.split(" ");
+        for (var aSS = 0; aSS < aStorySplit.length; aSS++) {
+            $("#LTbook").append("<p>" + aStorySplit[aSS] + "</p>");
+        }
+        var aStorySplit = aMore.split(" ");
+        for (var aSS = 0; aSS < aStorySplit.length; aSS++) {
+            $("#LTmore").append("<p>" + aStorySplit[aSS] + "</p>");
         }
         var oldPhotoExist = dataLog.feed.entry[i].gsx$photoam.$t;
         var photoLTs = [];
@@ -80,6 +85,5 @@ $.getJSON('https://spreadsheets.google.com/feeds/list/1RMtRyWF_2L6pRJNztr7TIgNMi
                 }
             }
         }); //end of photoLog
-
     } //end function data
 ); //end get JSON
