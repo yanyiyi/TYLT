@@ -179,7 +179,7 @@ footer {
 .mainMap {
     padding: 2.5% 0%;
     display: block;
-    height: 95%;
+    height: calc(95% - 210px);
     width: 66.7%;
     margin: 0 auto;
     clear: both;
@@ -204,7 +204,7 @@ footer {
 }
 
 #map {
-    height: 70%;
+    height: 90%;
     width: 70%;
     float: left;
     display: block;

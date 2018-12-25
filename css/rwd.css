@@ -64,10 +64,7 @@
     .navCenter {
         display: none;
     }
-    html,
-    body {
-        overflow: auto;
-    }
+
 }
 
 @media (min-width: 992px) {
@@ -75,10 +72,7 @@
     .mainMap {
         width: 960px;
     }
-    html,
-    body {
-        overflow: hidden;
-    }
+
 }
 
 @media (min-width: 1200px) {
