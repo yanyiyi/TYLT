@@ -64,12 +64,20 @@
     .navCenter {
         display: none;
     }
+    html,
+    body {
+        overflow: auto;
+    }
 }
 
 @media (min-width: 992px) {
     .navWarp,
     .mainMap {
         width: 960px;
+    }
+    html,
+    body {
+        overflow: hidden;
     }
 }
 
